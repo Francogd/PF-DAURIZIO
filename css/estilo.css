@@ -1,0 +1,145 @@
+*{Margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{background-color: gainsboro;
+    color: rgb(17, 28, 97);
+    font-family: 'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    line-height: 1.4
+}
+
+ul{list-style-type: none;
+    Margin:5px;
+    padding:5px;
+}
+
+.seccion1{Margin:3px;
+    padding:3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.Fotos{margin: 12px;
+    border: solid ;
+    opacity: 0.85;
+    border-style:inset;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+
+.Fotos:hover{border-color: gray;
+}
+
+
+.Titulo{background-color: rgb(17, 28, 97);
+    color:gainsboro;
+    font-family: 'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items:center;
+}
+
+.Inicio li{font-family: 'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    list-style-type: none;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+a{color:whitesmoke  ;
+    text-decoration: none;
+}
+
+nav{padding: 2rem;
+    display: flex;
+}
+
+.categoria{padding-right: 10px;
+    transition: all 0.5s;
+}
+.quienesSomos{padding-right: 10px;
+    transition: all 0.5s;
+}
+.contacto{padding-right: 10px;
+    transition: all 0.5s;
+}
+
+
+.categoria:hover{font-size: 23px;
+}
+.quienesSomos:hover{font-size: 23px;
+}
+.contacto:hover{font-size: 23px;
+}
+
+.Logo{display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 250px;
+}
+
+
+footer{background-color:rgb(17, 28, 97)}
+
+.Piepagina{font-family: 'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    list-style-type: none;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.objetivo{color:rgb(17, 28, 97);
+    font-family:'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.Crear{color:rgb(17, 28, 97);
+    font-family:'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.formulario{margin: 10px; 
+    padding: 10px;
+    overflow: auto;
+
+}
+
+.parrafoterm{padding: 20px;
+}
+
+.terminycond{margin: 12px
+}
+
+.gracias{margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.crearcuenta{background-color: rgb(17, 28, 97);
+color:whitesmoke;
+font-size: 1.2rem;
+padding: 10px 40px;
+border-radius: 5px;}
+
+/*Esilo Mobile*/
+@media (max-width: 768px) {
+    body {background-color: whitesmoke;
+    margin: 5px; 
+    padding: 10px;
+    color:rgb(17, 28, 97);
+    font-family: 'Roboto', Helvetica, Arial, Helvetica, sans-serif;
+    line-height: 1.4
+}}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short cut icon" href="/Assets/Icon/favicon_io - Original/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>DaleOficios</title>
+</head>
+<body>
+  <header class="Titulo">
+    <img src="/assets/icon/Logo/DaleOficios Blanco.png" alt="" class="Logo">
+        <ul class="Inicio">
+            <li>
+            <a href="/index.html" class="categoria">Categorías</a>
+            </li>
+            <li>
+            <a href="/views/origen.html" class="quienesSomos">¿Quiénes somos?</a>
+            </li>
+            <li>
+            <a href="/views/contactanos.html" class="contacto">Contacto</a>
+            </li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Buscar..." aria-label="buscar">
+        </form>
+        <div class="text-end">
+          <a href="/views/iniciosesion.html" button type="button" class="btn btn-outline-light me-2">Iniciar Sesión</a>
+          <a href="/views/formulario.html" button type="button" class="btn btn-outline-light me-2">Registrarse</a>
+        </div>
+     </nav>
+</header>
+        <br>
+    <main>
+        <form class="formulario">
+            <h2 class="objetivo">Sumate a nuestro equipo</h2>
+            <div id="alias" class="form-text">
+              Completa los datos y envianos tu curriculum
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre/s</label>
+              <input type="text" id="nombre" class="form-control" aria-describedby="nombre" placeholder="Esteban Franco" required>
+            </div>
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" id="apellido" class="form-control" aria-describedby="apellido" placeholder="Quito" required>
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="number" id="dni" class="form-control" aria-describedby="dni" placeholder="11.222.333" required>
+            </div>
+            <div class="mb-3">
+              <label for="sexo" class="form-label">Genero</label>
+              <br>
+              <input type="radio" name="sexo" value="femenino" required> Femenino
+              <input type="radio" name="sexo" value="masculino" required> Masculino
+              <input type="radio" name="sexo" value="otro" required> Otro
+            </div> 
+            <div class="mb-3">
+             <label for="nacimiento" class="form-label">Fecha de Nacimiento</label>
+              <input type="date" id="nacimiento" class="form-control" aria-describedby="nacimiento" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono de Contacto</label>
+              <input type="number" id="telefono" class="form-control" aria-describedby="telefono" placeholder="+54 9 11 2233 4455" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Eléctronico</label>
+              <input type="email" id="email" class="form-control" aria-describedby="email" placeholder="tuemail@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input type="text" id="direccion" class="form-control" aria-describedby="direccion" placeholder="Calle Falsa 123" required>
+            </div>
+            <div class="mb-3">
+              <label for="partido" class="form-label">Partido</label>
+              <input type="text" id="partido" class="form-control" aria-describedby="partido" placeholder="Morón" required>
+            </div>
+            <div class="mb-3">
+              <label for="ciudad" class="form-label">Ciudad</label>
+              <input type="text" id="partido" class="form-control" aria-describedby="partido" placeholder="Buenos Aires" required>
+            </div>
+            <div class="mb-3">
+              <label for="codigopostal" class="form-label">Código Postal</label>
+              <input type="number" id="codigopostal" class="form-control" aria-describedby="codigopostal" placeholder="1704" required>
+            </div>
+            <div class="col-auto">
+              <label for="archivo" class="col-form-label">Archivo de tu curriculum *</label>
+              <input type="file" id="archivo" class="form-control" aria-describedby="archivo" required>
+            </div>
+            <div id="alias" class="form-text">
+              Archivos permitidos: .pdf, .docx, .png, .jpg, .jpeg
+            </div>
+            <br>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terminos" required>
+                <label class="form-check-label" for="terminos">
+                  Acepto Términos y Condiciones
+                </label>
+              </div>
+            </div>
+            <a button type="submit" href="" class="btn btn-primary">Enviar</a>
+        </form>
+    <footer>
+        <ul class="Piepagina">
+            <li><a href="/views/trabajaconnosotros.html">Trabaja con Nosotros</a></li>
+            <li><a href="/views/condiciones.html">Términos y Condiciones</a></li>
+            <li><a href="/views/privacidad.html">Privacidad</a></li>
+        </ul>
+    </footer>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
